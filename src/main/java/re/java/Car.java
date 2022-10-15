@@ -10,4 +10,11 @@ public class Car {
     String gearBox;
     String brand;
 
+    // methods
+
+    public String getCarDetails() {
+        return "Vehicle is a " + color + " " + brand + " " + model + " with " + gearBox +
+                " gear" + ". " + "Car ID = " + carId;
+    }
+
 }

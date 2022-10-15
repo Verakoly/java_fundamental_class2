@@ -7,6 +7,10 @@ public class calculatorTrial {
         return result;
     }
 
+    public static double subtraction (double num1, double num2){
+        return num1 - num2;
+    }
+
     // return type = void in a print method syntax will only print to the console
 
     public static void displayWelcomeMessage (){
